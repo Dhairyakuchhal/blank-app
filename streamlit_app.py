@@ -5,6 +5,7 @@ from pathlib import Path
 # Path to store events and club priorities
 EVENTS_FILE = "events.json"
 PRIORITIES_FILE = "club_priorities.json"
+KERBEROS_FILE = 'kerberos.json'
 
 def load_events():
     """Load existing events from the JSON file."""
@@ -45,6 +46,7 @@ with st.form(key="insta_post_form"):
     insta_post_text = st.text_area("Instagram Post Text:", placeholder="Paste the text of the post here")
     submit_button = st.form_submit_button(label="Add Event")
 
+
 if submit_button:
     if insta_post_text:
         new_event = {
@@ -57,6 +59,22 @@ if submit_button:
     else:
         st.error("Please paste the text of the Instagram post.")
 
+
+with st.form(key="kerberos_post_form"):
+    kerberos_id = st.text_area("Kerberos ID for Classes Data", placeholder="Please enter here")
+    kerberos_id_submit_button = st.form_submit_button(label="Save")
+if kerberos_id_submit_button:
+    if kerberos_id:
+        kb_id = {
+            "kerberos_id": kerberos_id,
+        }
+        
+        with open(KERBEROS_FILE, "w") as file:
+            json.dump(kb_id, file, indent=4)
+
+        st.success("Kerberos has been added successfully!")
+    else:
+        st.error("Please paste the text of the Instagram post.")
 # Display existing events and option to remove them
 st.subheader("Scheduled Events")
 if existing_events:

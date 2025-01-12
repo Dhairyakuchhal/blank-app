@@ -1,60 +1,14 @@
 import streamlit as st
-import json
-import datetime
-from datetime import datetime as dt
-import pandas as pd
+from datetime import datetime
 
 # Set page config
-st.set_page_config(layout="wide", page_title="Event Scheduler", initial_sidebar_state="collapsed")
-
-# Custom CSS remains the same as before
-st.markdown("""
-<style>
-    .event-card {
-        background-color: #9d7fdb;
-        border-radius: 10px;
-        padding: 15px;
-        margin: 10px;
-        color: white;
-        width: 280px !important;
-        display: inline-block;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    .date-header {
-        font-size: 20px;
-        font-weight: bold;
-        margin: 20px 0 10px 0;
-        color: white;
-    }
-    .time-header {
-        font-size: 16px;
-        color: #999;
-        margin: 10px 0;
-    }
-    .events-container {
-        display: flex;
-        gap: 20px;
-    }
-    .stApp {
-        background-color: #1E1E1E;
-    }
-    .stSlider {
-        margin-bottom: 2rem;
-    }
-    .row-widget.stHorizontalBlock {
-        gap: 1rem !important;
-        padding: 0.5rem 0;
-    }
-    .block-container {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-</style>
-""", unsafe_allow_html=True)
+st.set_page_config(
+    layout="wide",
+    page_title="Event Scheduler",
+)
 
 def load_events():
-    # Your JSON data
-    events_data = {
+    return {
     "event_1": {
         "event_name": "LIT - QC THINGY",
         "event_date": "2025-01-12",
@@ -76,7 +30,7 @@ def load_events():
     "event_3": {
         "event_name": "19th Edition of IITPD",
         "event_date": "2025-03-08",
-        "event_time": "12:00:00",
+        "event_time": "NULL",
         "event_location": "IIT Delhi Campus",
         "event_description": "19th edition of IITPD, an Asian Parliamentary Debate tournament during the annual Tryst fest at IIT Delhi.  The event includes fun activities and concerts.",
         "type": "DEBSOC",
@@ -110,97 +64,86 @@ def load_events():
         "priority": 4
     }
 }
-    return events_data
 
-def create_event_card(event):
-    return {
-        "name": event['event_name'],
-        "location": event['event_location'],
-        "description": event['event_description'],
-        "type": event['type'],
-        "priority": event['priority']
-    }
+def format_time(time_str):
+    if time_str == "NULL":
+        return "TBA"
+    try:
+        time_obj = datetime.strptime(time_str, '%H:%M:%S')
+        return time_obj.strftime('%H:%M')
+    except ValueError:
+        try:
+            time_obj = datetime.strptime(time_str, '%H:%M')
+            return time_obj.strftime('%H:%M')
+        except ValueError:
+            return time_str
 
-def display_event_cards(events_list, selected_index, visible_cards=3):
-    total_events = len(events_list)
-    
-    # Calculate which events to show based on slider position
-    start_idx = selected_index
-    end_idx = min(start_idx + visible_cards, total_events)
-    
-    # Create columns for visible events
-    cols = st.columns(visible_cards)
-    
-    # Display visible events
-    for i, col in enumerate(cols):
-        idx = start_idx + i
-        if idx < total_events:
-            event = events_list[idx]
-            with col:
-                st.markdown(f"""
-                    <div class="event-card">
-                        <h2 style="margin-top: 0; font-size: 1.5rem; margin-bottom: 1rem;">{event['name']}</h2>
-                        <p style="margin-bottom: 0.5rem;">{event['location']}</p>
-                        <p style="margin-bottom: 0.5rem;">{event['description']}</p>
-                        <p style="margin-bottom: 0;">{event['type']}</p>
-                    </div>
-                """, unsafe_allow_html=True)
+def display_event_card(event, is_unannounced=False):
+    bg_color = "#4A4A4A" if is_unannounced else "#9D7FDB"
+    with st.container():
+        st.markdown(
+            f"""
+            <div style="
+                background-color: {bg_color};
+                padding: 20px;
+                border-radius: 10px;
+                margin: 10px 0;
+                color: white;
+            ">
+                <h3 style="margin: 0 0 10px 0; font-size: 1.3rem;">{event['event_name']}</h3>
+                <p style="margin: 5px 0;">{event['event_location']}</p>
+                <p style="margin: 5px 0;">{event['event_description']}</p>
+                <p style="margin: 5px 0;">{event['type']}</p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
 def main():
+    # Page title
     st.title("Event Scheduler")
     
     # Load events
     events = load_events()
     
-    # Convert events to DataFrame and handle datetime conversion carefully
-    events_df = pd.DataFrame.from_dict(events, orient='index')
+    # Separate events
+    unannounced_events = []
+    announced_events = {}
     
-    # Convert date and time separately and then combine them
-    events_df['date'] = pd.to_datetime(events_df['event_date'], format='%Y-%m-%d')
-    events_df['time'] = pd.to_datetime(events_df['event_time'], format='%H:%M:%S').dt.time
+    for event_id, event in events.items():
+        if event['event_date'] == "NULL" or event['event_time'] == "NULL":
+            unannounced_events.append(event)
+        else:
+            date = event['event_date']
+            if date not in announced_events:
+                announced_events[date] = {}
+            
+            time = event['event_time']
+            if time not in announced_events[date]:
+                announced_events[date][time] = []
+            announced_events[date][time].append(event)
     
-    # Sort by date and time
-    events_df = events_df.sort_values(['date', 'time', 'priority'], ascending=[True, True, False])
+    # Display unannounced events
+    if unannounced_events:
+        st.subheader("Unannounced Events", divider="orange")
+        cols = st.columns(3)  # Adjust number based on desired cards per row
+        for idx, event in enumerate(unannounced_events):
+            with cols[idx % 3]:
+                display_event_card(event, is_unannounced=True)
     
-    # Group events by date
-    grouped_events = events_df.groupby(events_df['event_date'])
-    
-    # Number of visible cards at once
-    visible_cards = 3
-    
-    # Display events grouped by date
-    for date, group in grouped_events:
-        # Format date header
-        date_obj = dt.strptime(date, '%Y-%m-%d')
-        st.markdown(f"<div class='date-header'>{date_obj.strftime('%Y-%m-%d')}</div>", unsafe_allow_html=True)
+    # Display announced events
+    for date in sorted(announced_events.keys()):
+        st.subheader(date, divider="gray")
         
-        # Group events by time within each date
-        time_grouped = group.groupby('event_time')
-        
-        for time, events_at_time in time_grouped:
-            st.markdown(f"<div class='time-header'>{time}</div>", unsafe_allow_html=True)
+        for time in sorted(announced_events[date].keys()):
+            time_display = format_time(time)
+            st.text(time_display)
             
-            # Convert events to list and sort by priority
-            events_list = [create_event_card(event) for _, event in events_at_time.iterrows()]
-            events_list.sort(key=lambda x: x['priority'], reverse=True)
-            
-            total_events = len(events_list)
-            
-            # Only show slider if there are more events than visible cards
-            if total_events > visible_cards:
-                selected_index = st.slider(
-                    f"Navigate events for {time}",
-                    0,
-                    max(0, total_events - visible_cards),
-                    0,
-                    1,
-                    key=f"slider_{date}_{time}".replace(" ", "_").replace(":", "_")
-                )
-            else:
-                selected_index = 0
-            
-            # Display the events
-            display_event_cards(events_list, selected_index, visible_cards)
+            cols = st.columns(3)  # Adjust number based on desired cards per row
+            events_at_time = announced_events[date][time]
+            for idx, event in enumerate(events_at_time):
+                with cols[idx % 3]:
+                    display_event_card(event)
 
 if __name__ == "__main__":
     main()
