@@ -1,0 +1,18 @@
+{
+    "event_1": {
+        "event_name": "Event 1",
+        "event_date": "2020-01-01",
+        "event_time": "12:00:00",
+        "event_location": "Location 1",
+        "event_description": "Description 1",
+        "type": "club"
+    },
+    "event_2": {
+        "event_name": "Event 2",
+        "event_date": "2020-01-02",
+        "event_time": "12:00:00",
+        "event_location": "Location 2",
+        "event_description": "Description 2",
+        "type": "club 2"
+    }
+}
