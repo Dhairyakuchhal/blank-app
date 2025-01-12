@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-MTQ315 <br> 
+email: 2402-MTQ315@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>5 students in 2402-MTQ315 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-MTQ315</h2></center></TD></TR><TR><TD ALIGN=LEFT>anima</TD>
+<TD>Anima Nagar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1211206</TD>
+<TD>Aniket Meena</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt1210919</TD>
+<TD>Mohit Raj Modi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt6200873</TD>
+<TD>Bhavik Sankhla</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt6200875</TD>
+<TD>Dev Verma</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt6200880</TD>
+<TD>Kanishka Singh</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

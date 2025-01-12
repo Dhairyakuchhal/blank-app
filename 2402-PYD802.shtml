@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-PYD802 <br> 
+email: 2402-PYD802@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>9 students in 2402-PYD802 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-PYD802</h2></center></TD></TR><TR><TD ALIGN=LEFT>rsdhaka</TD>
+<TD>Rajendra Singh Dhaka</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phm232017</TD>
+<TD>Priya Prakash Maurya</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phm232019</TD>
+<TD>Ankit Kumar Nim</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phm232020</TD>
+<TD>Swaraj Patra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phm232021</TD>
+<TD>Itika Sharma</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phm232022</TD>
+<TD>Biswajit Sahoo</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phm232023</TD>
+<TD>Yeshika Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phm232025</TD>
+<TD>Joydip Sarker</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phm232026</TD>
+<TD>Anandram A</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phm232027</TD>
+<TD>Jyoti Yadav</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

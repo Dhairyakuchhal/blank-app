@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-BML706 <br> 
+email: 2402-BML706@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>4 students in 2402-BML706 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-BML706</h2></center></TD></TR><TR><TD ALIGN=LEFT>sksr</TD>
+<TD>Sarvesh Kumar Srivastava</TD>
+</TR>
+<TR><TD ALIGN=LEFT>blz248665</TD>
+<TD>Manya Vatsa</TD>
+</TR>
+<TR><TD ALIGN=LEFT>blz248666</TD>
+<TD>Subhi Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bmy247620</TD>
+<TD>Resham Narula</TD>
+</TR>
+<TR><TD ALIGN=LEFT>tt1222131</TD>
+<TD>Ekansh Agarwal</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

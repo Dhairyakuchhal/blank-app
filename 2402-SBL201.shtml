@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-SBL201 <br> 
+email: 2402-SBL201@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>4 students in 2402-SBL201 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-SBL201</h2></center></TD></TR><TR><TD ALIGN=LEFT>menon</TD>
+<TD>Manoj Balakrishna Menon</TD>
+</TR>
+<TR><TD ALIGN=LEFT>sminocha</TD>
+<TD>Shilpi Minocha</TD>
+</TR>
+<TR><TD ALIGN=LEFT>anita</TD>
+<TD>Anita Roy</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1231079</TD>
+<TD>Yug Dev Chauhan</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ch1221016</TD>
+<TD>Nikhil Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ch7221476</TD>
+<TD>Rahul Arvind Masand</TD>
+</TR>
+<TR><TD ALIGN=LEFT>me2230851</TD>
+<TD>Gursheen Kaur Sudan</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

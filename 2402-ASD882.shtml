@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-ASD882 <br> 
+email: 2402-ASD882@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>10 students in 2402-ASD882 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-ASD882</h2></center></TD></TR><TR><TD ALIGN=LEFT>skdubey</TD>
+<TD>Sarvesh Kumar Dubey</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast212749</TD>
+<TD>Geetanjali Arora</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast232526</TD>
+<TD>Shubhodeep Das</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast232527</TD>
+<TD>Himani</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast232528</TD>
+<TD>Arnav Jain</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast232529</TD>
+<TD>Nitish Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast232530</TD>
+<TD>Manas Behera</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast232531</TD>
+<TD>Gobinda Manna</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast232532</TD>
+<TD>Digvijay Kumar Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast232533</TD>
+<TD>Govind Gaur</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ast232742</TD>
+<TD>Anil</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-CVD854 <br> 
+email: 2402-CVD854@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>6 students in 2402-CVD854 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-CVD854</h2></center></TD></TR><TR><TD ALIGN=LEFT>manojm</TD>
+<TD>Manoj M</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cep232410</TD>
+<TD>Maya Kushwaha</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cep232411</TD>
+<TD>Tahir Hussain</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cep232502</TD>
+<TD>Kusum Ghangas</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cep232504</TD>
+<TD>Arvind Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cep232735</TD>
+<TD>Ayush Pandey</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cep232745</TD>
+<TD>Krishan Nand</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

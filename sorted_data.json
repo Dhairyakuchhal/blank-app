@@ -1,0 +1,29 @@
+{
+    "event_1": {
+        "event_name": "Bounce Softly, or Carry a Big CHIMP Quiz",
+        "event_date": "2025-01-11",
+        "event_time": "09:00:00",
+        "event_location": "LHC",
+        "event_description": "A Crime, History, Internet, Media, and Politics quiz for teams of up to three IITD students.  Part of POL100.",
+        "type": "QC",
+        "priority": 1
+    },
+    "event_2": {
+        "event_name": "Nude Photography Session",
+        "event_date": "2025-01-14",
+        "event_time": "09:00:00",
+        "event_location": "Biotech lawn",
+        "event_description": "Nude photography session with lemonade provided. Participants should bring their own pens.",
+        "type": "DESIGN",
+        "priority": 9
+    },
+    "event_3": {
+        "event_name": "S.E.X Quiz",
+        "event_date": "2025-01-14",
+        "event_time": "09:00:00",
+        "event_location": "SAC conference room",
+        "event_description": "A science, entertainment, and xenography quiz. Participants should bring their own pens.",
+        "type": "QC",
+        "priority": 1
+    }
+}

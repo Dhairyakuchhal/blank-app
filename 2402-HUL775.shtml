@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-HUL775 <br> 
+email: 2402-HUL775@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>5 students in 2402-HUL775 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-HUL775</h2></center></TD></TR><TR><TD ALIGN=LEFT>richa</TD>
+<TD>Richa Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>huz248373</TD>
+<TD>Bharti Varun</TD>
+</TR>
+<TR><TD ALIGN=LEFT>huz248375</TD>
+<TD>Anuradha Chetry</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ppz248191</TD>
+<TD>Prasoon Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>qiz248528</TD>
+<TD>Samyuktha Rameshkumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>rdz248323</TD>
+<TD>Lopamudra Boruah</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

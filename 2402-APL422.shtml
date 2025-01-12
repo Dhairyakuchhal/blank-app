@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-APL422 <br> 
+email: 2402-APL422@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>12 students in 2402-APL422 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-APL422</h2></center></TD></TR><TR><TD ALIGN=LEFT>arjunsharma</TD>
+<TD>Arjun Sharma</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210195</TD>
+<TD>Ayush Kumar Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210197</TD>
+<TD>Aditya Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210198</TD>
+<TD>Aditya Agrawal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210200</TD>
+<TD>Ayush Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210201</TD>
+<TD>Hariharasudhan N</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210784</TD>
+<TD>Mrigank Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210786</TD>
+<TD>Akshansh Yadav</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210787</TD>
+<TD>Keshav Singla</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210797</TD>
+<TD>Jassi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1210798</TD>
+<TD>Kanishk Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1211072</TD>
+<TD>Ria Shailesh Khanna</TD>
+</TR>
+<TR><TD ALIGN=LEFT>am1211123</TD>
+<TD>Divyaraj Singh Kathait</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-CML661 <br> 
+email: 2402-CML661@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>7 students in 2402-CML661 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-CML661</h2></center></TD></TR><TR><TD ALIGN=LEFT>sapra</TD>
+<TD>Sameer Sapra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237030</TD>
+<TD>Rashmi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237048</TD>
+<TD>Sunny Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237054</TD>
+<TD>Animesh Karmakar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237069</TD>
+<TD>Sachin</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237070</TD>
+<TD>Tanish Tyagi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237079</TD>
+<TD>Rohan Kumar Rohj</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237087</TD>
+<TD>Chetan Rathi</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

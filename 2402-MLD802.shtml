@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-MLD802 <br> 
+email: 2402-MLD802@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>6 students in 2402-MLD802 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-MLD802</h2></center></TD></TR><TR><TD ALIGN=LEFT>ksnvikrant</TD>
+<TD>Suryanarayana Vikrant Karra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>msm232277</TD>
+<TD>Ankit Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>msm232279</TD>
+<TD>Saransh Tanwar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>msm232280</TD>
+<TD>Shubham Suthar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>msm232281</TD>
+<TD>Harshita Durgapal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>msm232288</TD>
+<TD>Rishabh Jain</TD>
+</TR>
+<TR><TD ALIGN=LEFT>vst249002</TD>
+<TD>Adharsh M</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

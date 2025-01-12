@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-TXD806 <br> 
+email: 2402-TXD806@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>7 students in 2402-TXD806 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-TXD806</h2></center></TD></TR><TR><TD ALIGN=LEFT>wazed</TD>
+<TD>Md S Wazed Ali</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ttc232001</TD>
+<TD>Sikandar Kumar Prajapati</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ttc232242</TD>
+<TD>Arpit Baslas</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ttc232243</TD>
+<TD>Guddy Bachchilal Prajapati</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ttc232244</TD>
+<TD>Agniv Chatterjee</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ttc232245</TD>
+<TD>Ankit Katiyar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ttc232246</TD>
+<TD>Rutuja Shivaji Dongare</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ttc232765</TD>
+<TD>Md Sajib Hossain</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-COL861 <br> 
+email: 2402-COL861@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>10 students in 2402-COL861 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-COL861</h2></center></TD></TR><TR><TD ALIGN=LEFT>kolin</TD>
+<TD>Kolin Paul</TD>
+</TR>
+<TR><TD ALIGN=LEFT>anz238473</TD>
+<TD>Ravikant</TD>
+</TR>
+<TR><TD ALIGN=LEFT>anz248539</TD>
+<TD>Chayanika Bhattacharjee</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1210493</TD>
+<TD>Mohammad Sufiyan Mir</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs5200437</TD>
+<TD>Ramanuj Goel</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs5200444</TD>
+<TD>Srijan Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>csz248489</TD>
+<TD>Gargi Mishra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>es1210762</TD>
+<TD>Gagan Chopra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mcs232482</TD>
+<TD>Pratham</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ph1210221</TD>
+<TD>Mohd Sayanur Rahman</TD>
+</TR>
+<TR><TD ALIGN=LEFT>tt1211121</TD>
+<TD>Md Shayan Intekhab</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

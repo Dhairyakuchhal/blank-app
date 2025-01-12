@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-CMP728 <br> 
+email: 2402-CMP728@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>5 students in 2402-CMP728 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-CMP728</h2></center></TD></TR><TR><TD ALIGN=LEFT>ritugupta</TD>
+<TD>Ritu Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>sapra</TD>
+<TD>Sameer Sapra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cym242089</TD>
+<TD>Prem Chandra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cym242091</TD>
+<TD>Sonu Kumar Bangarwa</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cym242092</TD>
+<TD>Sankalan Nayak</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cym242094</TD>
+<TD>Pragya Gambhir</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cym242095</TD>
+<TD>Vishwa Bhushan Nath Tiwari</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-COD300 <br> 
+email: 2402-COD300@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>11 students in 2402-COD300 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-COD300</h2></center></TD></TR><TR><TD ALIGN=LEFT>nbalaji</TD>
+<TD>Nikhil Balaji C R</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1210354</TD>
+<TD>Yash Vardhan</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ch1221471</TD>
+<TD>Kanika</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs1190411</TD>
+<TD>Tushman Khalse</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs1210557</TD>
+<TD>Chappidi Venkata Vamsidhar Reddy</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs1210558</TD>
+<TD>Utkarsh Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs1210588</TD>
+<TD>Nirmal Mina</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs1221624</TD>
+<TD>Nakum Varshil Kalubhai</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs5221150</TD>
+<TD>Satwik</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs5222049</TD>
+<TD>Lucky Ahirwar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee1210632</TD>
+<TD>Ayush Abhay Shrivastava</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee1210711</TD>
+<TD>Sanandh Kataria</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

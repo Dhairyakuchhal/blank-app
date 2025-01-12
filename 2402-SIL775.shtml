@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-SIL775 <br> 
+email: 2402-SIL775@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>9 students in 2402-SIL775 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-SIL775</h2></center></TD></TR><TR><TD ALIGN=LEFT>akbhateja</TD>
+<TD>A K Bhateja</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs5200438</TD>
+<TD>Richa Yadav</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs5200439</TD>
+<TD>Rishita Agrawal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>jcs232563</TD>
+<TD>Sanya Kapoor</TD>
+</TR>
+<TR><TD ALIGN=LEFT>jcs242039</TD>
+<TD>Satej Shripad Bhave</TD>
+</TR>
+<TR><TD ALIGN=LEFT>jcs242040</TD>
+<TD>Vaddi Jhancy</TD>
+</TR>
+<TR><TD ALIGN=LEFT>jcs242047</TD>
+<TD>Abhishek Kumar Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>jcs242048</TD>
+<TD>Ayan Shil</TD>
+</TR>
+<TR><TD ALIGN=LEFT>jcs242049</TD>
+<TD>Anand Sharma</TD>
+</TR>
+<TR><TD ALIGN=LEFT>vst249513</TD>
+<TD>Maxime Durand</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

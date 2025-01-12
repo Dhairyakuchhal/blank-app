@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-OPV793 <br> 
+email: 2402-OPV793@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>6 students in 2402-OPV793 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-OPV793</h2></center></TD></TR><TR><TD ALIGN=LEFT>jaindeepak</TD>
+<TD>Deepak Jain</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ch1210431</TD>
+<TD>Bhuvan Meena</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ch1221423</TD>
+<TD>Abhinav Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ch7221509</TD>
+<TD>Ritesh Rishi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ms1210871</TD>
+<TD>Sudhanshu Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ms1221887</TD>
+<TD>Priyansh Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phs237217</TD>
+<TD>Anurag Choudhary</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

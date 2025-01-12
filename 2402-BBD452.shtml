@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-BBD452 <br> 
+email: 2402-BBD452@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>8 students in 2402-BBD452 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-BBD452</h2></center></TD></TR><TR><TD ALIGN=LEFT>sinhapriti</TD>
+<TD>Kumari Priti Sinha</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1190056</TD>
+<TD>Siddhant Bansal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1210004</TD>
+<TD>Mitansh Jaisinghani</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1210009</TD>
+<TD>Vidyadarshini R</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1210010</TD>
+<TD>Ashwani</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1210310</TD>
+<TD>Neha Uday Mungale</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1210317</TD>
+<TD>Tuhin Kumar Raut</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1210340</TD>
+<TD>Tanishka Srivastava</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1210366</TD>
+<TD>Aayushi Verma</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

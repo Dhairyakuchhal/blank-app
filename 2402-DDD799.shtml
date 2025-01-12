@@ -1,0 +1,32 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-DDD799 <br> 
+email: 2402-DDD799@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>3 students in 2402-DDD799 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-DDD799</h2></center></TD></TR><TR><TD ALIGN=LEFT>srinivasanv</TD>
+<TD>Srinivasan Venkataraman</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ch7200171</TD>
+<TD>Khajekar Yamini Vijay</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee3210742</TD>
+<TD>Shreysh Verma</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt1210910</TD>
+<TD>Anchal</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

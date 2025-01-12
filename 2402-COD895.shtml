@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-COD895 <br> 
+email: 2402-COD895@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>8 students in 2402-COD895 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-COD895</h2></center></TD></TR><TR><TD ALIGN=LEFT>sayanranu</TD>
+<TD>Sayan Ranu</TD>
+</TR>
+<TR><TD ALIGN=LEFT>csy217585</TD>
+<TD>Pratik Gujral</TD>
+</TR>
+<TR><TD ALIGN=LEFT>csy227518</TD>
+<TD>Saurabh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>csy227519</TD>
+<TD>Surbhi Rajput</TD>
+</TR>
+<TR><TD ALIGN=LEFT>csy227589</TD>
+<TD>Rohith Vishnumolakala</TD>
+</TR>
+<TR><TD ALIGN=LEFT>csy237547</TD>
+<TD>Samrajnee Ghosh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>csy237548</TD>
+<TD>Lakshay Kakkar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>csy237585</TD>
+<TD>Himanshu Kumar Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>csy237587</TD>
+<TD>Abhishek Kumar</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

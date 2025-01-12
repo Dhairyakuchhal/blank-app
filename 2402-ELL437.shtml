@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-ELL437 <br> 
+email: 2402-ELL437@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>5 students in 2402-ELL437 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-ELL437</h2></center></TD></TR><TR><TD ALIGN=LEFT>spramanick</TD>
+<TD>Sumit Kumar Pramanick</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee3210178</TD>
+<TD>Shreyash Bhilwade</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee3210722</TD>
+<TD>Harshit Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee3210726</TD>
+<TD>Bhaira Ram Gat</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee3210730</TD>
+<TD>Sharesth Thakan</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee3210734</TD>
+<TD>Aman Yadav</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

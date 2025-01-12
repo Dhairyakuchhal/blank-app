@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-BML890 <br> 
+email: 2402-BML890@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>7 students in 2402-BML890 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-BML890</h2></center></TD></TR><TR><TD ALIGN=LEFT>nks</TD>
+<TD>Naveen Kumar Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bb1210317</TD>
+<TD>Tuhin Kumar Raut</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bmt232305</TD>
+<TD>Apoorva</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bmt242121</TD>
+<TD>Aman Krishna Sahu</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bmt242124</TD>
+<TD>Sutapa Ghosh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bmt242126</TD>
+<TD>Shreya Ghosh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bmz248696</TD>
+<TD>Anshul Nema</TD>
+</TR>
+<TR><TD ALIGN=LEFT>idz248564</TD>
+<TD>Garima Sood</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

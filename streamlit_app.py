@@ -1,9 +1,25 @@
 import streamlit as st
 import json
 from pathlib import Path
+import functions
+import pandas as pd
+import google.generativeai as genai
+from PIL import Image
+import os
+import logging
+from datetime import datetime, timedelta
+import google.generativeai as genai
+from PIL import Image
+import json
+import logging
+import os
+import re
+import pandas as pd
+from datetime import datetime, timedelta
+
 
 # Path to store events and club priorities
-EVENTS_FILE = "events.json"
+EVENTS_FILE = "posts.json"
 PRIORITIES_FILE = "club_priorities.json"
 KERBEROS_FILE = 'kerberos.json'
 
@@ -35,8 +51,8 @@ def remove_event(event_index):
 existing_events = load_events()
 
 # Streamlit app layout
-st.title("IIT Delhi Event Scheduler")
-st.write("Paste the text of the Instagram post below:")
+st.title("EventConnect")
+st.write("Paste the text of the event post below:")
 
 # Navigation link to event scheduler page
 st.markdown("[Go to Event Scheduler](./EventScheduler)")
@@ -55,9 +71,15 @@ if submit_button:
         existing_events.append(new_event)
         save_events(existing_events)
 
+
         st.success("Event has been added successfully!")
     else:
         st.error("Please paste the text of the Instagram post.")
+    functions.generate_csv()
+    functions.create_sorted_data()
+    functions.get_class_schedule()
+    functions.get_merged_events()
+
 
 
 with st.form(key="kerberos_post_form"):
@@ -92,14 +114,14 @@ else:
 # Section for setting club priorities
 st.subheader("Set Club Priorities")
 clubs = [
-    "CLASS", "LAB", "TUT", "DEBSOC", "QC", "SM", "DRAMA", "DANCE",
+    "CLASS", "DEBSOC", "QC", "SM", "DRAMA", "DANCE",
     "HS", "MUSIC", "LITRARY", "DESIGN", "PFC", "FACC", "RDV"
 ]
 
 # Input fields for priorities
 priorities = {}
 for club in clubs:
-    priorities[club] = st.slider(f"Priority for {club}", 1, 14, 5)
+    priorities[club] = st.slider(f"Priority for {club}", 1, 12, 6)
 
 # Save priorities button
 if st.button("Save Priorities"):

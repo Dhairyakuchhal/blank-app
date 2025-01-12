@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-PYL739 <br> 
+email: 2402-PYL739@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>9 students in 2402-PYL739 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-PYL739</h2></center></TD></TR><TR><TD ALIGN=LEFT>saswata</TD>
+<TD>Saswata Bhattacharya</TD>
+</TR>
+<TR><TD ALIGN=LEFT>chz248091</TD>
+<TD>Sharad Sharma</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cs5200426</TD>
+<TD>Gurarmaan Singh Panjeta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phs237174</TD>
+<TD>Dev Goyal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phs237181</TD>
+<TD>Sanchit Pokhriyal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phs237207</TD>
+<TD>Aryaman Gogoi Baruah</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phs237208</TD>
+<TD>Shubhrajit Samal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phs247144</TD>
+<TD>Barshodeep Deb</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phz248286</TD>
+<TD>Kavita Joshi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phz248480</TD>
+<TD>Dhriti Mandal</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

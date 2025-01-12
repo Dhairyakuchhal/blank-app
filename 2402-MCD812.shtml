@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-MCD812 <br> 
+email: 2402-MCD812@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>7 students in 2402-MCD812 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-MCD812</h2></center></TD></TR><TR><TD ALIGN=LEFT>kmayank</TD>
+<TD>Mayank Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>met232100</TD>
+<TD>Akash Srivastava</TD>
+</TR>
+<TR><TD ALIGN=LEFT>met232102</TD>
+<TD>Shreyansh Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>met232106</TD>
+<TD>Shubhang Kapilkumar Dave</TD>
+</TR>
+<TR><TD ALIGN=LEFT>met232523</TD>
+<TD>Agilton R S</TD>
+</TR>
+<TR><TD ALIGN=LEFT>met232641</TD>
+<TD>Abhinav Kumar Pandey</TD>
+</TR>
+<TR><TD ALIGN=LEFT>met232689</TD>
+<TD>Ravi Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>met232717</TD>
+<TD>Pawan Tripathi</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

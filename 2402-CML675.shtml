@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-CML675 <br> 
+email: 2402-CML675@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>9 students in 2402-CML675 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-CML675</h2></center></TD></TR><TR><TD ALIGN=LEFT>srr</TD>
+<TD>Sudipta Raha Roy</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237024</TD>
+<TD>Gopal Meena</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237035</TD>
+<TD>Kanishka Vijay</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237036</TD>
+<TD>Ajay Prajapati</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237039</TD>
+<TD>Neeraj Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237049</TD>
+<TD>Ravi Prakash Upadhyay</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237063</TD>
+<TD>Biki Das</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237073</TD>
+<TD>Naresh Kumar Barik</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237085</TD>
+<TD>Nityananda Parida</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cys237086</TD>
+<TD>Gayatri Narayanlal Suthar</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

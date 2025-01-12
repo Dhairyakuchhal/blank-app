@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-BMV702 <br> 
+email: 2402-BMV702@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>7 students in 2402-BMV702 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-BMV702</h2></center></TD></TR><TR><TD ALIGN=LEFT>pmukherjee</TD>
+<TD>Pradipta Mukherjee</TD>
+</TR>
+<TR><TD ALIGN=LEFT>blz248269</TD>
+<TD>Pulkit Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bmy247618</TD>
+<TD>Ankit Arora</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bmy247619</TD>
+<TD>Hakikat Bir Singh Bhatti</TD>
+</TR>
+<TR><TD ALIGN=LEFT>bmy247620</TD>
+<TD>Resham Narula</TD>
+</TR>
+<TR><TD ALIGN=LEFT>chz248563</TD>
+<TD>Chandra Prakash Tiwari</TD>
+</TR>
+<TR><TD ALIGN=LEFT>srz248212</TD>
+<TD>Rajan</TD>
+</TR>
+<TR><TD ALIGN=LEFT>srz248671</TD>
+<TD>Kundhanathan R</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

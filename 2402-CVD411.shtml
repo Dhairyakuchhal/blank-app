@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-CVD411 <br> 
+email: 2402-CVD411@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>8 students in 2402-CVD411 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-CVD411</h2></center></TD></TR><TR><TD ALIGN=LEFT>abanerjee</TD>
+<TD>Arnab Banerjee</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1140346</TD>
+<TD>Manmohan Singh Dagar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1170122</TD>
+<TD>Mani Tyagi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1180141</TD>
+<TD>Rinkush Kumarmeena</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1180177</TD>
+<TD>Yogendra Gothwal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1200236</TD>
+<TD>Divyanshu Yadav</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1200247</TD>
+<TD>Himanshu Mandiwal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1210517</TD>
+<TD>Chandan Godara</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1210536</TD>
+<TD>E Kavya</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

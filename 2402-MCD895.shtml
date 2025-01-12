@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-MCD895 <br> 
+email: 2402-MCD895@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>6 students in 2402-MCD895 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-MCD895</h2></center></TD></TR><TR><TD ALIGN=LEFT>debabrata</TD>
+<TD>Debabrata Dasgupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mey207647</TD>
+<TD>Shubham Mishra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mey227570</TD>
+<TD>Pankaj Sansanwal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mey227573</TD>
+<TD>Anurag Mishra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mey227574</TD>
+<TD>Prashant</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mey237532</TD>
+<TD>Sameer Meshram</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mey247579</TD>
+<TD>Arvind Suresh Ambalapuzha</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

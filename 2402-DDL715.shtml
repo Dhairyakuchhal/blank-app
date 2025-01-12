@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-DDL715 <br> 
+email: 2402-DDL715@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>8 students in 2402-DDL715 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-DDL715</h2></center></TD></TR><TR><TD ALIGN=LEFT>charum</TD>
+<TD>Charu Monga</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ce1210503</TD>
+<TD>Anushka Sai Bablani</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee1210650</TD>
+<TD>Eva Ghanshani</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ee1210652</TD>
+<TD>Pooja Mahajan</TD>
+</TR>
+<TR><TD ALIGN=LEFT>me1221306</TD>
+<TD>Shreenath Jha</TD>
+</TR>
+<TR><TD ALIGN=LEFT>me2211071</TD>
+<TD>Saanvi Jain</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt1210905</TD>
+<TD>Nancy Kansal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ph1210224</TD>
+<TD>Kirti Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>vst249016</TD>
+<TD>Shubham Jain</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

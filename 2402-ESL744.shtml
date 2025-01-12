@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-ESL744 <br> 
+email: 2402-ESL744@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>7 students in 2402-ESL744 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-ESL744</h2></center></TD></TR><TR><TD ALIGN=LEFT>rams</TD>
+<TD>Ramesh Narayanan</TD>
+</TR>
+<TR><TD ALIGN=LEFT>satyananda</TD>
+<TD>Satyananda Kar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cev242422</TD>
+<TD>Shailesh Kumar Jha</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esn242213</TD>
+<TD>Naval Kant Sharma</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esz248068</TD>
+<TD>Goutam Samanta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phz248280</TD>
+<TD>Anupam Shaw</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phz248482</TD>
+<TD>Yogeshwari</TD>
+</TR>
+<TR><TD ALIGN=LEFT>phz248485</TD>
+<TD>Keerti</TD>
+</TR>
+<TR><TD ALIGN=LEFT>srz248213</TD>
+<TD>Saidul Sk</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

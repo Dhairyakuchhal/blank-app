@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-PYD412 <br> 
+email: 2402-PYD412@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>5 students in 2402-PYD412 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-PYD412</h2></center></TD></TR><TR><TD ALIGN=LEFT>tobiastoll</TD>
+<TD>Folke Tobias Florus Toll</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ph1200703</TD>
+<TD>Jyotishna Dekaboruah Sonowal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ph1210219</TD>
+<TD>Shaili Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ph1210223</TD>
+<TD>Aditya Adhyan</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ph1210836</TD>
+<TD>Manasi Korade</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ph1210844</TD>
+<TD>Krishnakant</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-ELD802 <br> 
+email: 2402-ELD802@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>6 students in 2402-ELD802 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-ELD802</h2></center></TD></TR><TR><TD ALIGN=LEFT>psrivast</TD>
+<TD>Priyank Srivastava</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea232158</TD>
+<TD>Anindya Mishra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea232162</TD>
+<TD>Shubham Sachan</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea232638</TD>
+<TD>Aman Melkani</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea232655</TD>
+<TD>Vangapally Santhoshi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea232687</TD>
+<TD>Anil Kumar Sahu</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea232726</TD>
+<TD>Ashish Pandey</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

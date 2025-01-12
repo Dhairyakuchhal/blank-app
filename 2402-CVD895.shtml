@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-CVD895 <br> 
+email: 2402-CVD895@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>4 students in 2402-CVD895 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-CVD895</h2></center></TD></TR><TR><TD ALIGN=LEFT>bishnoi</TD>
+<TD>Shashank Bishnoi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cey237592</TD>
+<TD>Suyash Bhandaree</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cey247566</TD>
+<TD>Anandita Kaushal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cey247567</TD>
+<TD>Saptarshi Panda</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cey247568</TD>
+<TD>Khalid Bin Ashraf</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-ESL751 <br> 
+email: 2402-ESL751@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>12 students in 2402-ESL751 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-ESL751</h2></center></TD></TR><TR><TD ALIGN=LEFT>krk</TD>
+<TD>K Ravi Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eey247578</TD>
+<TD>Murari Jha</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esn232348</TD>
+<TD>Nabyendu Mukherjee</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esr242566</TD>
+<TD>Rahul Saha</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esr242774</TD>
+<TD>Mujuni Paul</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esr242775</TD>
+<TD>Abubacarr Seedy Badjie</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esr242778</TD>
+<TD>Hassan Abdullahi Sheikhdon</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esr242782</TD>
+<TD>Rohit Thakwani</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esr242807</TD>
+<TD>Niyaz Ali</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esz248546</TD>
+<TD>Sunil Das</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esz248547</TD>
+<TD>Shanta Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esz248700</TD>
+<TD>Kate Ajit Ashok</TD>
+</TR>
+<TR><TD ALIGN=LEFT>esz248701</TD>
+<TD>Ajay V</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

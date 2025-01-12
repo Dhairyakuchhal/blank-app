@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-HSL706 <br> 
+email: 2402-HSL706@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>7 students in 2402-HSL706 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-HSL706</h2></center></TD></TR><TR><TD ALIGN=LEFT>ianand</TD>
+<TD>Ishan Anand</TD>
+</TR>
+<TR><TD ALIGN=LEFT>hes237029</TD>
+<TD>Harshita Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>hes237037</TD>
+<TD>Vandita Mukherjee</TD>
+</TR>
+<TR><TD ALIGN=LEFT>huz248351</TD>
+<TD>Srijani Roy</TD>
+</TR>
+<TR><TD ALIGN=LEFT>huz248369</TD>
+<TD>Rajeev Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>huz248370</TD>
+<TD>Kashish</TD>
+</TR>
+<TR><TD ALIGN=LEFT>huz248371</TD>
+<TD>Vandana Kalsi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ppm234503</TD>
+<TD>Aastha Nath</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

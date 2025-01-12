@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-ELL801 <br> 
+email: 2402-ELL801@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>10 students in 2402-ELL801 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-ELL801</h2></center></TD></TR><TR><TD ALIGN=LEFT>ink</TD>
+<TD>Indra Narayan Kar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cte232300</TD>
+<TD>Mansi Kumari</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ctz248606</TD>
+<TD>Hedayetullah</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea232638</TD>
+<TD>Aman Melkani</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea232726</TD>
+<TD>Ashish Pandey</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea242308</TD>
+<TD>Nitish Tyagi</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea242312</TD>
+<TD>Amit Kumar Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea242315</TD>
+<TD>Priyanshu Verma</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea242843</TD>
+<TD>Srinivasan Krishnan</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eea242849</TD>
+<TD>Ravi Dahiya</TD>
+</TR>
+<TR><TD ALIGN=LEFT>eez248647</TD>
+<TD>Anuradha Sahu</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-MTQ314 <br> 
+email: 2402-MTQ314@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>5 students in 2402-MTQ314 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-MTQ314</h2></center></TD></TR><TR><TD ALIGN=LEFT>siva</TD>
+<TD>Sivananthan Sampath</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt1210241</TD>
+<TD>Ashi Veerman</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt1210702</TD>
+<TD>Sunrit Roy Karmakar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt1210899</TD>
+<TD>Ayush Singh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt1210906</TD>
+<TD>Shreya Gupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>mt1210935</TD>
+<TD>Sanskriti Gautam</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

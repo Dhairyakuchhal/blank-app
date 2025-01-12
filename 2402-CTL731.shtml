@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-CTL731 <br> 
+email: 2402-CTL731@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>11 students in 2402-CTL731 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-CTL731</h2></center></TD></TR><TR><TD ALIGN=LEFT>fatima</TD>
+<TD>Shahab Fatima</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cte242010</TD>
+<TD>Piyush Dinesh Todwal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cte242597</TD>
+<TD>Himanshu Adarsh</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cte242600</TD>
+<TD>Shubham Chaudhary</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cty247565</TD>
+<TD>Sidhartha Kumar</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cty247608</TD>
+<TD>Mayank Jaiswal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cty247609</TD>
+<TD>Jabi Ali</TD>
+</TR>
+<TR><TD ALIGN=LEFT>cty247610</TD>
+<TD>Prasoon Mishra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ctz248605</TD>
+<TD>Dikshya Surabhi Patra</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ctz248608</TD>
+<TD>Rittik Das</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ctz248609</TD>
+<TD>Varinder Kaur</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ctz248610</TD>
+<TD>Vivek Tiwari</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE> User Groups </TITLE>
+</HEAD> <BODY>
+<CENTER><H2><FONT COLOR="#B22222"> User Group: 2402-DDR862 <br> 
+email: 2402-DDR862@courses.iitd.ac.in </FONT></H2> 
+<H3><FONT COLOR=red>6 students in 2402-DDR862 </FONT></H3>
+</CENTER>
+<CENTER>
+<TABLE BORDER="1"
+       CELLPADDING="5"
+       CELLSPACING="5"
+>
+<TR><TD COLSPAN=7><center><h2>2402-DDR862</h2></center></TD></TR><TR><TD ALIGN=LEFT>st</TD>
+<TD>Saurabh Tewari</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ch7200171</TD>
+<TD>Khajekar Yamini Vijay</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ddz248305</TD>
+<TD>Garima Bhardwaj</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ddz248306</TD>
+<TD>Sachii Tripathii</TD>
+</TR>
+<TR><TD ALIGN=LEFT>ddz248512</TD>
+<TD>Chandrakesh Bihari Lal</TD>
+</TR>
+<TR><TD ALIGN=LEFT>huz248357</TD>
+<TD>Ishani Sengupta</TD>
+</TR>
+<TR><TD ALIGN=LEFT>qiz248523</TD>
+<TD>Sabahat Ali Khan</TD>
+</TR>
+</TABLE>
+</CENTER>
+<HR>
+Generated on Sun 12 Jan 2025 01:31:17 AM IST
+ from information available in ldap. For the latest information contact the Academic Sections.
+</BODY>
+</HTML>

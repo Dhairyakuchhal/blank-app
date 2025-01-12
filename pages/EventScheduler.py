@@ -1,69 +1,18 @@
 import streamlit as st
 from datetime import datetime
+import functions
+import json
 
 # Set page config
 st.set_page_config(
     layout="wide",
-    page_title="Event Scheduler",
+    page_title="EventConnect",
 )
 
 def load_events():
-    return {
-    "event_1": {
-        "event_name": "LIT - QC THINGY",
-        "event_date": "2025-01-12",
-        "event_time": "10:00:00",
-        "event_location": "Lecture Hall Complex",
-        "event_description": "A literary quizzing event with word games, literary puzzles, and quizzing challenges. Teams of 3.",
-        "type": "QC",
-        "priority": 4
-    },
-    "event_2": {
-        "event_name": "Symphony of Words and Melodies",
-        "event_date": "2025-01-12",
-        "event_time": "17:00:00",
-        "event_location": "Red Square Area (Near Central Library), IIT Delhi",
-        "event_description": "An evening of musical performances and poetry presented by Music Club, Literary Club, and Hindi Samiti in collaboration with Literati.  Includes chai.",
-        "type": "MUSIC",
-        "priority": 9
-    },
-    "event_3": {
-        "event_name": "19th Edition of IITPD",
-        "event_date": "2025-03-08",
-        "event_time": "NULL",
-        "event_location": "IIT Delhi Campus",
-        "event_description": "19th edition of IITPD, an Asian Parliamentary Debate tournament during the annual Tryst fest at IIT Delhi.  The event includes fun activities and concerts.",
-        "type": "DEBSOC",
-        "priority": 3
-    },
-    "event_4": {
-        "event_name": "Bounce Softly, or Carry a Big CHIMP",
-        "event_date": "2025-01-11",
-        "event_time": "09:00:00",
-        "event_location": "LHC, IITD",
-        "event_description": "A quiz covering Crime, History, Internet, Media, and Politics.  Team size up to 3 members; IITD students only.  Related to POL100.",
-        "type": "QC",
-        "priority": 4
-    },
-    "event_5": {
-        "event_name": "Ghazal Writing Workshop",
-        "event_date": "2025-01-17",
-        "event_time": "15:00:00",
-        "event_location": "NULL",
-        "event_description": "A workshop on Ghazal writing, exploring Urdu poetry, led by Mr. Mahender Kumar.",
-        "type": "LITRARY",
-        "priority": 10
-    },
-    "event_6": {
-        "event_name": "Literati '25 Presents: Two Quizzes",
-        "event_date": "2025-01-12",
-        "event_time": "09:00:00",
-        "event_location": "Room C01, Old Academic Block, IIIT Delhi",
-        "event_description": "Two quizzes: Credible India Quiz (India-focused) and Veni Vidi Quizzi (History and Mythology with Alt History).  Open to participants under 25.",
-        "type": "QC",
-        "priority": 4
-    }
-}
+    with open('merged_events.json', 'r') as merged_file:
+        merged_events = json.load(merged_file)
+    return merged_events
 
 def format_time(time_str):
     if time_str == "NULL":
