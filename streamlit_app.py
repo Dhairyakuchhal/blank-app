@@ -23,6 +23,13 @@ def save_priorities(priorities):
     with open(PRIORITIES_FILE, "w") as file:
         json.dump(priorities, file, indent=4)
 
+def remove_event(event_index):
+    """Remove an event by index."""
+    events = load_events()
+    if 0 <= event_index < len(events):
+        events.pop(event_index)
+        save_events(events)
+
 # Load existing events
 existing_events = load_events()
 
@@ -50,26 +57,31 @@ if submit_button:
     else:
         st.error("Please paste the text of the Instagram post.")
 
-# Display existing events
+# Display existing events and option to remove them
 st.subheader("Scheduled Events")
 if existing_events:
     for i, event in enumerate(existing_events, start=1):
         st.write(f"**Event {i}:** {event['post_text']}")
+        
+        # Button to remove the event
+        if st.button(f"Remove Event {i}", key=f"remove_{i}"):
+            remove_event(i - 1)  # Remove the event at the given index
+            st.rerun()  # Rerun the app to refresh the event list
+
 else:
     st.write("No events scheduled yet.")
 
 # Section for setting club priorities
 st.subheader("Set Club Priorities")
-st.write("The higher the priority, the more important the event")
 clubs = [
-    "CLASS", "DEBSOC", "QC", "SPIC MACAY", "DRAMA", "DANCE",
-    "HINDI SAMITI", "MUSIC", "LITRARY", "DESIGN", "PFC", "FACC", "RDV"
+    "CLASS", "LAB", "TUT", "DEBSOC", "QC", "SM", "DRAMA", "DANCE",
+    "HS", "MUSIC", "LITRARY", "DESIGN", "PFC", "FACC", "RDV"
 ]
 
 # Input fields for priorities
 priorities = {}
 for club in clubs:
-    priorities[club] = st.slider(f"Priority for {club}", 1, 13, 6)
+    priorities[club] = st.slider(f"Priority for {club}", 1, 14, 5)
 
 # Save priorities button
 if st.button("Save Priorities"):
