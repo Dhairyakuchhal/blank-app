@@ -8,14 +8,9 @@ from PIL import Image
 import os
 import logging
 from datetime import datetime, timedelta
-import google.generativeai as genai
-from PIL import Image
-import json
 import logging
 import os
 import re
-import pandas as pd
-from datetime import datetime, timedelta
 
 
 # Path to store events and club priorities
@@ -49,13 +44,29 @@ def remove_event(event_index):
 
 # Load existing events
 existing_events = load_events()
-print('error1')
 # Streamlit app layout
 st.title("EventConnect")
 st.write("Paste the text of the event post below:")
 
 # Navigation link to event scheduler page
 st.markdown("[Go to Event Scheduler](./EventScheduler)")
+
+
+with st.form(key="kerberos_post_form"):
+    kerberos_id = st.text_area("Kerberos ID for Classes Data (Mandatory)", placeholder="Please enter here")
+    kerberos_id_submit_button = st.form_submit_button(label="Save")
+if kerberos_id_submit_button:
+    if kerberos_id:
+        kb_id = {
+            "kerberos_id": kerberos_id,
+        }
+        
+        with open(KERBEROS_FILE, "w") as file:
+            json.dump(kb_id, file, indent=4)
+
+        st.success("Kerberos has been added successfully!")
+    else:
+        st.error("Please Add the kerberos ID")
 
 # Input form for Instagram post text
 with st.form(key="insta_post_form"):
@@ -82,21 +93,7 @@ if submit_button:
 
 
 
-with st.form(key="kerberos_post_form"):
-    kerberos_id = st.text_area("Kerberos ID for Classes Data", placeholder="Please enter here")
-    kerberos_id_submit_button = st.form_submit_button(label="Save")
-if kerberos_id_submit_button:
-    if kerberos_id:
-        kb_id = {
-            "kerberos_id": kerberos_id,
-        }
-        
-        with open(KERBEROS_FILE, "w") as file:
-            json.dump(kb_id, file, indent=4)
 
-        st.success("Kerberos has been added successfully!")
-    else:
-        st.error("Please paste the text of the Instagram post.")
 # Display existing events and option to remove them
 st.subheader("Scheduled Events")
 if existing_events:
