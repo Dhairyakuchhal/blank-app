@@ -2,8 +2,9 @@ import streamlit as st
 import json
 from pathlib import Path
 
-# Path to store events
+# Path to store events and club priorities
 EVENTS_FILE = "events.json"
+PRIORITIES_FILE = "club_priorities.json"
 
 def load_events():
     """Load existing events from the JSON file."""
@@ -16,6 +17,11 @@ def save_events(events):
     """Save events to the JSON file."""
     with open(EVENTS_FILE, "w") as file:
         json.dump(events, file, indent=4)
+
+def save_priorities(priorities):
+    """Save club priorities to the JSON file."""
+    with open(PRIORITIES_FILE, "w") as file:
+        json.dump(priorities, file, indent=4)
 
 # Load existing events
 existing_events = load_events()
@@ -51,3 +57,22 @@ if existing_events:
         st.write(f"**Event {i}:** {event['post_text']}")
 else:
     st.write("No events scheduled yet.")
+
+# Section for setting club priorities
+st.subheader("Set Club Priorities")
+st.write("The higher the priority, the more important the event")
+clubs = [
+    "CLASS", "DEBSOC", "QC", "SPIC MACAY", "DRAMA", "DANCE",
+    "HINDI SAMITI", "MUSIC", "LITRARY", "DESIGN", "PFC", "FACC", "RDV"
+]
+
+# Input fields for priorities
+priorities = {}
+for club in clubs:
+    priorities[club] = st.slider(f"Priority for {club}", 1, 13, 6)
+
+# Save priorities button
+if st.button("Save Priorities"):
+    save_priorities(priorities)
+    st.success("Club priorities have been saved successfully!")
+    st.json(priorities)
