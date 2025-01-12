@@ -49,7 +49,7 @@ def remove_event(event_index):
 
 # Load existing events
 existing_events = load_events()
-
+print('error1')
 # Streamlit app layout
 st.title("EventConnect")
 st.write("Paste the text of the event post below:")
