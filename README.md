@@ -17,6 +17,8 @@
     - If the Instagram post text does not include event timings:
         - The event will be added to a separate column with **TBA (To Be Announced)** timings.
         - A feature to add images for such cases will be introduced in upcoming updates.
+# **Link**
+    - https://event-connectshipathon.streamlit.app/
 
 # Implementation
 ## Finding Lecture Timings
