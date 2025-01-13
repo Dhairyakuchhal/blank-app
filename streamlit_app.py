@@ -11,6 +11,7 @@ from datetime import datetime, timedelta
 import logging
 import os
 import re
+import time
 
 
 # Path to store events and club priorities
@@ -20,9 +21,14 @@ KERBEROS_FILE = 'kerberos.json'
 
 def load_events():
     """Load existing events from the JSON file."""
-    if Path(EVENTS_FILE).exists():
-        with open(EVENTS_FILE, "r") as file:
-            return json.load(file)
+    try:
+        if Path(EVENTS_FILE).exists():
+            with open(EVENTS_FILE, "r") as file:
+                return json.load(file)
+    except json.JSONDecodeError:
+        # Log error and/or delete corrupted file
+        if Path(EVENTS_FILE).exists():
+            Path(EVENTS_FILE).unlink()  # Delete corrupted file
     return []
 
 def save_events(events):
@@ -37,10 +43,18 @@ def save_priorities(priorities):
 
 def remove_event(event_index):
     """Remove an event by index."""
-    events = load_events()
-    if 0 <= event_index < len(events):
-        events.pop(event_index)
-        save_events(events)
+    return functions.remove_event_and_regenerate(event_index)
+
+def load_kerberos():
+    """Load existing kerberos ID from the JSON file."""
+    if Path(KERBEROS_FILE).exists():
+        try:
+            with open(KERBEROS_FILE, "r") as file:
+                data = json.load(file)
+                return data.get("kerberos_id", "")
+        except json.JSONDecodeError:
+            return ""
+    return ""
 
 # Load existing events
 existing_events = load_events()
@@ -52,11 +66,26 @@ st.write("Paste the text of the event post below:")
 st.markdown("[Go to Event Scheduler](./EventScheduler)")
 
 
+current_kerberos = load_kerberos()
+
 with st.form(key="kerberos_post_form"):
-    kerberos_id = st.text_area("Kerberos ID for Classes Data (Mandatory)", placeholder="Please enter here")
-    kerberos_id_submit_button = st.form_submit_button(label="Save")
-if kerberos_id_submit_button:
+    st.subheader("Kerberos ID Management")
+    
+    if current_kerberos:
+        st.info(f"Current Kerberos ID: {current_kerberos}")
+        kerberos_id = st.text_input("Enter new Kerberos ID to replace current one:", key="new_kerberos")
+    else:
+        kerberos_id = st.text_input("Enter Kerberos ID (Compulsory):", key="new_kerberos")
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        submit_button = st.form_submit_button(label="Save Kerberos ID")
+    with col2:
+        remove_button = st.form_submit_button(label="Remove Kerberos ID", type="secondary")
+
+if submit_button:
     if kerberos_id:
+        # Save new kerberos ID
         kb_id = {
             "kerberos_id": kerberos_id,
         }
@@ -64,9 +93,17 @@ if kerberos_id_submit_button:
         with open(KERBEROS_FILE, "w") as file:
             json.dump(kb_id, file, indent=4)
 
-        st.success("Kerberos has been added successfully!")
+        st.success("Kerberos ID has been saved successfully!")
+        st.rerun()
     else:
-        st.error("Please Add the kerberos ID")
+        st.error("Please enter a Kerberos ID")
+
+if remove_button:
+    if functions.remove_kerberos_and_classes():
+        st.success("Kerberos ID and associated classes have been removed successfully!")
+        st.rerun()
+    else:
+        st.error("Failed to remove Kerberos ID and classes")
 
 # Input form for Instagram post text
 with st.form(key="insta_post_form"):
@@ -94,7 +131,6 @@ if submit_button:
 
 
 
-# Display existing events and option to remove them
 st.subheader("Scheduled Events")
 if existing_events:
     for i, event in enumerate(existing_events, start=1):
@@ -102,9 +138,12 @@ if existing_events:
         
         # Button to remove the event
         if st.button(f"Remove Event {i}", key=f"remove_{i}"):
-            remove_event(i - 1)  # Remove the event at the given index
-            st.rerun()  # Rerun the app to refresh the event list
-
+            success = remove_event(i - 1)
+            if success:
+                st.success(f"Event {i} removed successfully!")
+                st.rerun()
+            else:
+                st.error(f"Failed to remove Event {i}")
 else:
     st.write("No events scheduled yet.")
 

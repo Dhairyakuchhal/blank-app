@@ -6,6 +6,7 @@ import os
 import re
 import pandas as pd
 from datetime import datetime, timedelta
+from pathlib import Path
 
 def generate_csv():
     def process_single_json(file_path):
@@ -470,3 +471,100 @@ def get_merged_events():
         json.dump(merged_events, merged_file, indent=4)
 
     print("Events merged and saved as 'merged_events.json'.")
+
+
+
+
+def remove_event_and_regenerate(event_index):
+    """
+    Remove event and regenerate all files while maintaining consistency.
+    """
+    try:
+        # 1. First remove from posts.json
+        with open('posts.json', 'r') as file:
+            posts = json.load(file)
+            
+        if 0 <= event_index < len(posts):
+            event_content = posts[event_index]['post_text']
+            posts.pop(event_index)
+            
+            # Save updated posts.json
+            with open('posts.json', 'w') as file:
+                json.dump(posts, file, indent=4)
+            
+            
+            # 2. Generate new CSV
+            generate_csv()
+            
+            # 3. Remove from sorted_data.json if it exists
+            if os.path.exists('sorted_data.json'):
+
+                os.remove('sorted_data.json')
+                print('sorted_deleted')
+            with open('sorted_data.json', 'w') as sorted_file:
+                data = {} 
+                json.dump(data, sorted_file)
+            create_sorted_data()
+            
+            # 4. Regenerate class events
+            get_class_schedule()
+            
+            # 5. Regenerate merged events
+                    
+                    # Save merged events
+            if os.path.exists('merged_events.json'):
+                os.remove('merged_events.json')
+            with open('merged_events.json', 'w') as merged_file:
+                data = {} 
+                json.dump(data, merged_file)
+            get_merged_events()
+
+            
+            return True
+    except Exception as e:
+        print(f"Error in remove_event_and_regenerate: {e}")
+        return False
+
+
+# Add to functions.py
+
+def remove_kerberos_and_classes():
+    """
+    Remove kerberos ID and all associated class events.
+    """
+    try:
+        # 1. Remove kerberos.json
+        if os.path.exists('kerberos.json'):
+            os.remove('kerberos.json')
+            # Create empty kerberos.json
+            with open('kerberos.json', 'w') as kb_file:
+                json.dump({}, kb_file)
+        
+        # 2. Remove class_events.json
+        if os.path.exists('class_events.json'):
+            os.remove('class_events.json')
+            # Create empty class_events.json
+            with open('class_events.json', 'w') as class_file:
+                json.dump({}, class_file)
+        
+        # 3. Remove classes from merged_events.json
+        if os.path.exists('merged_events.json'):
+            with open('merged_events.json', 'r') as file:
+                merged_events = json.load(file)
+            
+            # Filter out class events and reindex
+            new_merged = {}
+            idx = 1
+            for _, event in merged_events.items():
+                if event.get('type', '').lower() != 'class':
+                    new_merged[f"event_{idx}"] = event
+                    idx += 1
+            
+            # Save updated merged_events.json
+            with open('merged_events.json', 'w') as file:
+                json.dump(new_merged, file, indent=4)
+        
+        return True
+    except Exception as e:
+        print(f"Error in remove_kerberos_and_classes: {e}")
+        return False
